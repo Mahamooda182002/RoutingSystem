@@ -1,0 +1,20 @@
+import networkx as nx
+
+# Create a graph using NetworkX and add nodes and edges
+# ... (same as before)
+
+# Update edge weights based on real-time traffic data
+# ... (same as before)
+
+# Dijkstra's shortest path algorithm
+def shortest_path(source, destination):
+    shortest_path = nx.shortest_path(G, source, destination, weight="weight")
+    return shortest_path
+
+# Example usage
+source = "A"
+destination = "C"
+
+# Calculate the optimal route based on real-time traffic data
+optimal_route = shortest_path(source, destination)
+print("Optimal route:", optimal_route)
