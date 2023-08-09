@@ -1,0 +1,6 @@
+Clone the repository:
+
+   ```sh
+   git clone https://github.com/yourusername/real-time-traffic-routing.git
+   cd real-time-traffic-routing
+pip install networkx requests
